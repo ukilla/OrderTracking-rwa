@@ -1,0 +1,58 @@
+#statistics {
+  margin-top: 20px;
+  padding: 10px;
+  background-color: #f9f9f9;
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+#statistics h2 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+#statistics p {
+  margin: 5px 0;
+}
+
+#orders-list {
+  list-style-type: none;
+  padding: 20px;
+}
+
+#orders-list li {
+  padding: 15px;
+  background-color: #ffa07a;
+  margin-bottom: 10px;
+  color: #333;
+  border-radius: 5px;
+}
+
+/* Stil za naslov i pozadinu */
+body {
+  font-family: "Arial", sans-serif;
+  background-color: lightgray;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  text-align: center;
+  padding: 20px;
+  background-color: #333;
+  color: white;
+}
+
+button {
+  background-color: #ff6347;
+  margin-left: 10px;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 3px;
+  cursor: pointer;
+  font-size: 14px;
+}

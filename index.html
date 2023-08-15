@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="./src/styles/style.css">
+    <title>RxJS</title>
+    <style>
+      body {
+        font-family: "Arial";
+        background: lightgray;
+      }
+      ul {
+        list-style-type: none;
+        padding: 20px;
+      }
+      li {
+        padding: 15px;
+        background: lightcoral;
+        margin-bottom: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Narudžbine</h1>
+    <ul id="orders-list"></ul>
+    <div id="statistics">
+      <p id="total-orders">Ukupan broj narudžbina:</p>
+      <p id="average-delivery-time">Prosečno vreme isporuke:</p>
+      <p id="most-common-product">Najčešći proizvod:</p>
+    </div>
+    <script src="./src/index.ts"></script>
+    <script src="dist/bundle.js"></script>
+  </body>
+</html>

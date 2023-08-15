@@ -1,0 +1,94 @@
+# Ignoriši node_modules direktorijum
+node_modules/
+
+# Ignoriši generisane fajlove
+/dist/
+/out/
+
+# Ignoriši konfiguracione fajlove
+.env
+
+# Ignoriši fajlove za lične postavke korisnika
+.vscode/
+.idea/
+
+# Ignoriši log i privremene fajlove
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Ignoriši fajlove sa osetljivim informacijama
+.env.local
+.env.*.local
+
+# Ignoriši cache direktorijume
+.cache/
+.cached/
+
+# Ignoriši TypeScript konfiguraciju
+tsconfig.json
+tsconfig.*.json
+
+# Ignoriši editor konfiguraciju
+.editorconfig
+
+# Ignoriši fajlove za testiranje i pokrivanje koda
+coverage/
+.nyc_output/
+
+# Ignoriši Webpack cache
+.cache-loader/
+
+# Ignoriši sistemski fajlovi Mac OS-a
+.DS_Store
+
+# Ignoriši fajlove sa korisničkim postavkama za Vim
+.vimrc
+
+# Ignoriši fajlove za korisničke postavke za Neovim
+nvim-logs/
+nvim-shada/
+
+# Ignoriši fajlove za korisničke postavke za Emacs
+.emacs.desktop
+.emacs.desktop.lock
+
+# Ignoriši fajlove za korisničke postavke za IntelliJ IDEA
+.idea/workspace.xml
+.idea/tasks.xml
+.idea/datasources.xml
+.idea/dataSources.ids
+.idea/dataSources.local.xml
+.idea/sqlDataSources.xml
+.idea/dynamic.xml
+.idea/uiDesigner.xml
+.idea/encodings.xml
+.idea/misc.xml
+.idea/modules.xml
+.idea/vcs.xml
+.idea/jsLibraryMappings.xml
+
+# Ignoriši fajlove za korisničke postavke za Visual Studio Code
+.vscode/settings.json
+.vscode/*.code-snippets
+
+# Ignoriši fajlove za korisničke postavke za Sublime Text
+.sublime-project
+.sublime-workspace
+
+# Ignoriši fajlove za korisničke postavke za NetBeans
+nb-configuration.xml
+
+# Ignoriši fajlove za korisničke postavke za Eclipse
+.settings/
+.classpath
+.project
+.factorypath
+.recommenders/
+.settings/
+
+# Ignoriši fajlove za korisničke postavke za Xcode
+*.xcworkspace/
+*.xcodeproj/
+!*.xcodeproj/project.pbxproj
